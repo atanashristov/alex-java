@@ -32,7 +32,7 @@ class BubbleSortTest {
 	}
 
 	@Test
-	void testNumbersAreSorted() {
+	void sort_testNumbersAreSorted() {
 		
 		new BubbleSort().sort(numbers);
 		
@@ -40,7 +40,17 @@ class BubbleSortTest {
 		for (int i=0; i < sortedNumbers.length; i++) {
 			assertEquals(sortedNumbers[i], numbers[i]);
 		}
+	}
+
+	@Test
+	void sortImproved_testNumbersAreSorted() {
 		
+		new BubbleSort().sortImproved(numbers);
+		
+		assertEquals(sortedNumbers.length, numbers.length);
+		for (int i=0; i < sortedNumbers.length; i++) {
+			assertEquals(sortedNumbers[i], numbers[i]);
+		}
 	}
 
 }
