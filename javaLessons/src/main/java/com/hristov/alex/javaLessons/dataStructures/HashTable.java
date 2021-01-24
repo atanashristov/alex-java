@@ -66,10 +66,11 @@ public class HashTable {
 			}
 
 			if (placed == false) {
-				if (_entries[i].getRemoved()) {
+				if (_entries[i].getRemoved() 
+						|| _entries[i].getKey().equals(key)) {
 					_entries[i] = newEntry;
 					placed = true;
-				}			
+				}
 			} else {
 				if (_entries[i].getKey().equals(key)) {
 					_entries[i].markAsRemoved();
