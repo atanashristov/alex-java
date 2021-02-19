@@ -7,7 +7,10 @@ package com.hristov.alex.javaLessons.sorting;
  * - repeatedly stepping through the list to sort
  * - compare adjacent elements
  * - swap them around if the first element is bigger  
- * 
+ *
+ * @author  Alex Hristov
+ * @version 1.0
+ * @since 2020-12-21
  */
 public class BubbleSort {
 
