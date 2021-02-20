@@ -1,4 +1,4 @@
-package com.hristov.alex.javaLessons.dataStructures;
+package com.hristov.alex.javaLessons.dataStructures.hashTableLP;
 
 /**
  * HashTable class

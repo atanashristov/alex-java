@@ -1,4 +1,6 @@
-package com.hristov.alex.javaLessons.dataStructures;
+package com.hristov.alex.javaLessons.dataStructures.hashTableLP;
+
+import com.hristov.alex.javaLessons.dataStructures.hashTableLP.HashTable;
 
 import java.io.File;
 import java.io.FileNotFoundException;

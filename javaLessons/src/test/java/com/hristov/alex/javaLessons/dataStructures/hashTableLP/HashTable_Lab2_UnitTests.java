@@ -1,4 +1,4 @@
-package com.hristov.alex.javaLessons.dataStructures;
+package com.hristov.alex.javaLessons.dataStructures.hashTableLP;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

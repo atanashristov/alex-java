@@ -14,7 +14,7 @@
  * @since 2021-01-23
  */
 
-package com.hristov.alex.javaLessons.dataStructures;
+package com.hristov.alex.javaLessons.dataStructures.hashTableLP;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ import java.util.List;
  *   - Buckets: a hash function calculates element index by key.
  *   - Linear probing: Collusion is resolved via linear probing.
  */
-public class HashTable {
+public class HashTable_V3 {
 
     // Instance variables
     // ------------------------------------------------------------------
@@ -51,7 +51,7 @@ public class HashTable {
     /**
      * Constructs an empty HashTable with default size of 101.
      */
-    public HashTable() {
+    public HashTable_V3() {
         this(101);
     }
 
@@ -61,7 +61,7 @@ public class HashTable {
      * @param capacity The size to initialize with.
      *                 The capacity should be a prime number.
      */
-    public HashTable(int capacity) {
+    public HashTable_V3(int capacity) {
         _entries = new Entry[capacity];
         _size = 0;
     }

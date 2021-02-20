@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad029244-db0b-4396-94b7-3665a714c6be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_V3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/VIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab4_HashCodeMethod-v3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab4_VINUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaLessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaLessons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Experimenting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Experimenting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/HashTable_V1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_V1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/HashTable_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_V2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab1_GettingStarted-v10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab1_GettingStarted-v10.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab2_DataSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab2_DataSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab2_Linear-v13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab2_Linear-v13.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab2_TestDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab2_TestDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab2_UnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab2_UnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab3_LargeDataSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab3_LargeDataSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab3_LoadFactor-v11.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab3_LoadFactor-v11.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab3_Report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab3_Report.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab3_SuccessfulSearch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab3_SuccessfulSearch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab3_TestDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab3_TestDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/HashTable_Lab3_UnsuccessfulSearch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab3_UnsuccessfulSearch.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1o7vnn9pUqaKYAJUvbQXM3Afg7S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Alex\alex-java\javaLessons\src\test\java\com\hristov\alex\javaLessons\dataStructures\hashTableLP" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hristov.alex.javaLessons.dataStructures.hashTableLP" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hristov.alex.javaLessons.dataStructures.hashTableLP" />
+      <recent name="com.hristov.alex.javaLessons.dataStructures" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HashTable_Lab4_VINUnitTests">
+    <configuration name="HashTable_Lab4_VINUnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP" />
+      <option name="MAIN_CLASS_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.HashTable_Lab4_VINUnitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTable_Lab4_VINUnitTests.TestGetSetModelYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP" />
+      <option name="MAIN_CLASS_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.HashTable_Lab4_VINUnitTests" />
+      <option name="METHOD_NAME" value="TestGetSetModelYear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTable_Lab4_VINUnitTests.TestGetSetSecurityCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP" />
+      <option name="MAIN_CLASS_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.HashTable_Lab4_VINUnitTests" />
+      <option name="METHOD_NAME" value="TestGetSetSecurityCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTable_Lab4_VINUnitTests.TestGetSetSerialNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP" />
+      <option name="MAIN_CLASS_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.HashTable_Lab4_VINUnitTests" />
+      <option name="METHOD_NAME" value="TestGetSetSerialNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTable_Lab4_VINUnitTests.TestPlantCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP" />
+      <option name="MAIN_CLASS_NAME" value="com.hristov.alex.javaLessons.dataStructures.hashTableLP.HashTable_Lab4_VINUnitTests" />
+      <option name="METHOD_NAME" value="TestPlantCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HashTable_Lab4_VINUnitTests" />
+        <item itemvalue="JUnit.HashTable_Lab4_VINUnitTests.TestGetSetSerialNumber" />
+        <item itemvalue="JUnit.HashTable_Lab4_VINUnitTests.TestPlantCode" />
+        <item itemvalue="JUnit.HashTable_Lab4_VINUnitTests.TestGetSetModelYear" />
+        <item itemvalue="JUnit.HashTable_Lab4_VINUnitTests.TestGetSetSecurityCode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad029244-db0b-4396-94b7-3665a714c6be" name="Default Changelist" comment="" />
+      <created>1612650614756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612650614756</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Hashtable lab 3">
+      <created>1613708901323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613708901323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Hashtable lab 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashtable lab 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/HashTable_Lab2_UnitTests.java</url>
+          <line>442</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/VIN.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/VIN.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hristov/alex/javaLessons/dataStructures/hashTableLP/VIN.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,6 +1,9 @@
-package com.hristov.alex.javaLessons.dataStructures;
+package com.hristov.alex.javaLessons.dataStructures.hashTableLP;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
