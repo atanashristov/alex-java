@@ -9,17 +9,27 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.StringJoiner;
 
-public class HashTable_Lab3_TestDriver {
+/**
+ * Test driver - Hash tables Lab 4
+ *
+ * Changes:
+ * - 1.0: Initial
+ *
+ * @author Alex Hristov
+ * @version 1.0
+ * @since 2/20/2021
+ */
+public class HashTable_Lab4_TestDriver {
 
     static final String DIR="src\\test\\java\\com\\hristov\\alex\\javaLessons\\dataStructures\\hashTableLP";
 
     public static void main(String[] args) {
         ArrayList<String> dataSet = readFile(500000,
-            DIR + "\\HashTable_Lab3_LargeDataSet.txt");
+                DIR + "\\HashTable_Lab4_CarsDataSet.txt");
         ArrayList<String> successfulSearch = readFile(15000,
-            DIR + "\\HashTable_Lab3_SuccessfulSearch.txt");
+                DIR + "\\HashTable_Lab4_SuccessfulSearch.txt");
         ArrayList<String> unsuccessfulSearch = readFile(15000,
-            DIR + "\\HashTable_Lab3_UnsuccessfulSearch.txt");
+                DIR + "\\HashTable_Lab4_UnsuccessfulSearch.txt");
 
         ArrayList<Object[]> report = new ArrayList<Object[]>();
         report.add(new String[] {
@@ -43,7 +53,7 @@ public class HashTable_Lab3_TestDriver {
                 "GET_MS2", // 15
                 "GET_PROBE2", // 16
                 "GET_PROBE2_AVG" // 17
-            });
+        });
 
         double[] loadFactors = new double[] {
                 0.1,
@@ -57,14 +67,15 @@ public class HashTable_Lab3_TestDriver {
             double loadFactor = loadFactors[i];
             int capacity = (int) (dataSet.stream().count() / loadFactor);
 
-            System.out.println("Running loadFactor="+loadFactor+", capacity:="+capacity+"...");
+            System.out.println("Running loadFactor=" + loadFactor + ", capacity:=" + capacity + "...");
 
             HashTable hashTable = new HashTable(capacity);
 
             long start, stop;
 
             // --- Measure table insertion performance ---
-            hashTable.resetStats();;
+            hashTable.resetStats();
+            ;
             start = System.currentTimeMillis();
             doHashTableInserts(hashTable, dataSet);
             stop = System.currentTimeMillis();
@@ -76,7 +87,7 @@ public class HashTable_Lab3_TestDriver {
 
             // --- Measure performance for finding items in table ---
 
-            hashTable.resetStats();;
+            hashTable.resetStats();
             start = System.currentTimeMillis();
             doHashTableSearch(hashTable, successfulSearch);
             stop = System.currentTimeMillis();
@@ -88,7 +99,7 @@ public class HashTable_Lab3_TestDriver {
 
             // --- Measure search performance for items NOT in table ---
 
-            hashTable.resetStats();;
+            hashTable.resetStats();
             start = System.currentTimeMillis();
             doHashTableSearch(hashTable, unsuccessfulSearch);
             stop = System.currentTimeMillis();
@@ -126,31 +137,34 @@ public class HashTable_Lab3_TestDriver {
 
         writeReportToConsole(report);
         writeReportToFile(report,
-    DIR + "\\HashTable_Lab3_Report.csv");
+                DIR + "\\HashTable_Lab4_Report.csv");
     }
 
     private static void doHashTableInserts(HashTable hashTable, ArrayList<String> data) {
         for(int i = 0; i < data.stream().count(); i++) {
             String rec = data.get(i);
-            int idx = rec.indexOf(" ");
-            String key = rec.substring(0, idx);
-            String val = rec.substring(idx + 1);
-            hashTable.put(key, val);
+
+            String vin = rec.substring(0, 17);
+            int year = Integer.parseInt(rec.substring(18, 22).trim());
+            String make = rec.substring(23, 66);
+            String country = rec.substring(67);
+
+            Car car = new Car(vin, year, make, country);
+            hashTable.put(vin, car);
         }
     }
 
     private static void doHashTableSearch(HashTable hashTable, ArrayList<String> data) {
         for(int i = 0; i < data.stream().count(); i++) {
             String rec = data.get(i);
-            int idx = rec.indexOf(" ");
-            String key = rec.substring(0, idx);
-            Object storedVal = hashTable.get(key);
+            String vin = rec.substring(0, 16);
+            Object storedVal = hashTable.get(vin);
         }
     }
 
     private static String createLineForReport(Object[] data) {
         String res = String.format(
-                "%1$-15s | %2$-15s | %3$-15s | %4$-15s | %5$-15s | %6$-15s | %7$-15s | %8$-15s | %9$-15s | %10$-15s | %11$-15s | %12$-15s | %13$-15s | %14$-15s | %15$-15s | %16$-15s | %17$-15s",
+                "%1$-14s | %2$-14s | %3$-12s | %4$-12s | %5$-12s | %6$-12s | %7$-12s | %8$-12s | %9$-14s | %10$-12s | %11$-12s | %12$-12s | %13$-14s | %14$-12s | %15$-12s | %16$-12s | %17$-12s",
                 data);
         return res;
     }
@@ -168,7 +182,6 @@ public class HashTable_Lab3_TestDriver {
             System.out.println(createLineForReport(report.get(i)));
         }
     }
-
     private static void writeReportToFile(ArrayList<Object[]> report, String filename) {
         PrintWriter writer;
 
@@ -213,4 +226,5 @@ public class HashTable_Lab3_TestDriver {
 
         return res;
     }
+
 }

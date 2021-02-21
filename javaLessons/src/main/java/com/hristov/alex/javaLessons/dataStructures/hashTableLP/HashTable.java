@@ -1,5 +1,13 @@
+package com.hristov.alex.javaLessons.dataStructures.hashTableLP;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * HashTable class
+ * Hashtable implementation using array and linear probing:
+ *   - Open addressing: all elements are stored inside same array.
+ *   - Buckets: a hash function calculates element index by key.
+ *   - Linear probing: Collusion is resolved via linear probing.
  *
  * Changes:
  * - 3.0: Wrap around the array when end of array reached
@@ -14,17 +22,6 @@
  * @since 2021-01-23
  */
 
-package com.hristov.alex.javaLessons.dataStructures.hashTableLP;
-
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * Hashtable implementation using array and linear probing:
- *   - Open addressing: all elements are stored inside same array.
- *   - Buckets: a hash function calculates element index by key.
- *   - Linear probing: Collusion is resolved via linear probing.
- */
 public class HashTable {
 
     // Instance variables

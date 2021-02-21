@@ -1,18 +1,32 @@
 package com.hristov.alex.javaLessons.dataStructures.hashTableLP;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.Test;
 
-public class HashTable_Lab4_VINUnitTests {
+/**
+ * VIN class - Unit tests getters and setters.
+ *
+ * Changes:
+ * - 1.0: Initial
+ *
+ * @author Alex Hristov
+ * @version 1.0
+ * @since 2/20/2021
+ */
+@DisplayName("Given a VIN instance")
+public class HashTable_Lab4_VIN_GettersAndSetter_UnitTests {
 
     @Test
-    void TestIsDefault() {
+    @DisplayName("Is initialized with default data")
+    public void TestIsDefault() {
         VIN vin = new VIN();
         Assertions.assertTrue(vin.isDefault());
     }
 
     @Test
-    void TestGetSetRegionCode() {
+    @DisplayName("RegionCode can be changed")
+    public void TestGetSetRegionCode() {
         VIN vin = new VIN();
 
         vin.setRegionCode("1");
@@ -21,7 +35,8 @@ public class HashTable_Lab4_VINUnitTests {
     }
 
     @Test
-    void TestGetSetManufacturerCode() {
+    @DisplayName("ManufacturerCode can be changed")
+    public void TestGetSetManufacturerCode() {
         VIN vin = new VIN();
 
         vin.setManufacturerCode("11");
@@ -30,7 +45,8 @@ public class HashTable_Lab4_VINUnitTests {
     }
 
     @Test
-    void TestGetSetVehicleDescriptor() {
+    @DisplayName("VehicleDescriptor can be changed")
+    public void TestGetSetVehicleDescriptor() {
         VIN vin = new VIN();
 
         vin.setVehicleDescriptor("12345");
@@ -39,7 +55,8 @@ public class HashTable_Lab4_VINUnitTests {
     }
 
     @Test
-    void TestGetSetSecurityCode() {
+    @DisplayName("SecurityCode can be changed")
+    public void TestGetSetSecurityCode() {
         VIN vin = new VIN();
 
         vin.setSecurityCode("1");
@@ -48,7 +65,8 @@ public class HashTable_Lab4_VINUnitTests {
     }
 
     @Test
-    void TestGetSetModelYear() {
+    @DisplayName("ModelYear can be changed")
+    public void TestGetSetModelYear() {
         VIN vin = new VIN();
 
         vin.setModelYear("1");
@@ -57,7 +75,8 @@ public class HashTable_Lab4_VINUnitTests {
     }
 
     @Test
-    void TestGetSetPlantCode() {
+    @DisplayName("PlantCode can be changed")
+    public void TestGetSetPlantCode() {
         VIN vin = new VIN();
 
         vin.setPlantCode("1");
@@ -66,7 +85,8 @@ public class HashTable_Lab4_VINUnitTests {
     }
 
     @Test
-    void TestGetSetSerialNumber() {
+    @DisplayName("SerialNumber can be changed")
+    public void TestGetSetSerialNumber() {
         VIN vin = new VIN();
 
         vin.setSerialNumber("123456");
